@@ -30,7 +30,7 @@ function Vote() {
     })
       .then((response) => response.json())
       .then((json) => {
-        window.location.replace("");
+        window.location.replace("https://nsbs.vercel.app/");
       })
       .catch((error) => console.log(error));
   };
