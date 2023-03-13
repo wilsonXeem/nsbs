@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import { ValueContext } from "../Context";
 
 import socketIo from "socket.io-client";
-const socket = socketIo.connect("http://localhost:8000");
+const socket = socketIo.connect("https://southern-fragrant-maize.glitch.me");
 
 function Contestants() {
   const { data } = useContext(ValueContext);
