@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+.logo {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 3rem;
+  background: url("./images//logo.jpeg");
+  background-size: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.log {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.homepage button {
+  border: none;
+  height: 3rem;
+  width: 6rem;
+  background-color: pink;
+  border-radius: 2rem;
+}
+
+.homepage h1 {
+  margin: 5px;
+}
+
+.contestants {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-gap: 2rem;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.contestant {
+  height: 30rem;
+  text-align: center;
+  padding: 0px 0px 2rem 0px;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px 2px pink;
+}
+
+.contestant img {
+  width: 100%;
+  height: 70%;
+}
+
+.contestant p,
+h3 {
+  margin: 5px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form div {
+  margin: 1rem;
+}
+
+.form button {
+  border: none;
+  background-color: black;
   color: white;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.radio {
+  width: 2rem;
+  height: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.but {
+  width: 5rem;
+  height: 5rem;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 2.5rem;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.code {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.code button {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .contestants {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .contestant {
+    height: 30rem;
+    text-align: center;
+    /* padding: 1rem; */
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px 2px pink;
+  }
+
+  .contestant img {
+    width: 100%;
+    height: 80%;
   }
 }
