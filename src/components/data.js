@@ -6,6 +6,7 @@ import mamah from "../images/mamah.jpeg"
 import madu from "../images/madu.jpeg"
 import agu from "../images/agu.jpeg"
 import shuga from "../images/shuga.jpeg"
+import nelson from "../images/Nelson Chukwukanne.jpeg"
 
 const data = [
   {
@@ -56,6 +57,12 @@ const data = [
     chapter: "UNN",
     sex: "female",
     image: shuga,
+  },
+  {
+    fullname: "Nelson Chukwukanne",
+    chapter: "ESUT",
+    sex: "male",
+    image: nelson,
   },
 ];
 
