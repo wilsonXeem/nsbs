@@ -14,42 +14,49 @@ const data = [
     chapter: "UNN",
     sex: "female",
     image: chinaza,
+    votes: 4.14,
   },
   {
     fullname: "Jessica/Kendra cruz",
     chapter: "ABSU",
     sex: "female",
     image: jessi,
+    votes: 22.77,
   },
   {
     fullname: "Malaky Arinzechukwu/ Aribobo",
     chapter: "MOUA",
     sex: "male",
     image: malaky,
+    votes: 23.22,
   },
   {
     fullname: "Benadine Chinonso Okonkwo",
     chapter: "ABSU",
     sex: "female",
     image: benadine,
+    votes: 20.49,
   },
   {
     fullname: "Mamah Chineacherm Cynthia",
     chapter: "ESUT",
     sex: "female",
     image: mamah,
+    votes: 2.46,
   },
   {
     fullname: "Madu Davidmary Chineacherm",
     chapter: "ESUT",
     sex: "male",
     image: madu,
+    votes: 14.30,
   },
   {
     fullname: "Nathaniel Francis (Agu)",
     chapter: "UNN",
     sex: "male",
     image: agu,
+    votes: 12.48,
   },
 
   {
@@ -57,12 +64,14 @@ const data = [
     chapter: "UNN",
     sex: "female",
     image: shuga,
+    votes: 0.00,
   },
   {
     fullname: "Nelson Chukwukanne",
     chapter: "ESUT",
     sex: "male",
     image: nelson,
+    votes: 0.14,
   },
 ];
 

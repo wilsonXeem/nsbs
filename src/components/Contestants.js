@@ -1,26 +1,28 @@
 import React, { useContext, useState } from "react";
 
-import { ValueContext } from "../Context";
+// import { ValueContext } from "../Context";
 
-import socketIo from "socket.io-client";
-const socket = socketIo.connect("https://southern-fragrant-maize.glitch.me");
+// import socketIo from "socket.io-client";
+// const socket = socketIo.connect("https://southern-fragrant-maize.glitch.me");
+
+import data from "./data";
 
 function Contestants() {
-  const { data } = useContext(ValueContext);
-  const [contestants, setContestants] = useState([]);
-  socket.on("me", (data) => {
-    setContestants(data);
-  });
+  // const { data } = useContext(ValueContext);
+  // const [contestants, setContestants] = useState([]);
+  // socket.on("me", (data) => {
+  //   setContestants(data);
+  // });
   return (
     <div className="contestants">
-      {contestants.map((contestant, i) => {
+      {data.map((data, i) => {
         return (
           <div className="contestant" key={i}>
-            <img src={data[i].image} alt="contestant" />
-            <h3>{data[i].fullname}</h3>
-            <p>{data[i].chapter}</p>
-            <p>{data[i].sex}</p>
-            <h1>{contestant.votes} Votes</h1>
+            <img src={data.image} alt="contestant" />
+            <h3>{data.fullname}</h3>
+            <p>{data.chapter}</p>
+            <p>{data.sex}</p>
+            <h1>{data.votes} %</h1>
           </div>
         );
       })}
