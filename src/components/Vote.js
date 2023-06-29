@@ -15,14 +15,14 @@ function Vote() {
   };
 
   const handleSubmit = () => {
-    const fullname = data[id].fullname;
+    const nickname = data[id].nickname;
 
     fetch("https://southern-fragrant-maize.glitch.me/vote/voting", {
       method: "POST",
       body: JSON.stringify({
         code: code,
         value: voteValue,
-        fullname: fullname,
+        nickname: nickname,
       }),
       headers: {
         "Content-type": "application/json",
@@ -30,7 +30,7 @@ function Vote() {
     })
       .then((response) => response.json())
       .then((json) => {
-        window.location.replace("https://nsbs.vercel.app/");
+        window.location.replace("/");
       })
       .catch((error) => console.log(error));
   };
@@ -53,8 +53,7 @@ function Vote() {
             <div className="contestant" key={i}>
               <img src={data.image} alt="contestant" />
               <h3>{data.fullname}</h3>
-              <p>{data.chapter}</p>
-              <p>{data.sex}</p>
+              <p>{data.nickname}</p>
               <input
                 type="radio"
                 className="radio"

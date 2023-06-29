@@ -53,12 +53,18 @@
 
 .contestant img {
   width: 100%;
-  height: 70%;
+  height: 80%;
 }
 
 .contestant p,
 h3 {
   margin: 5px;
+}
+
+.contestant p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: palevioletred;
 }
 
 .form {

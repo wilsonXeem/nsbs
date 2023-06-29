@@ -12,7 +12,7 @@ function App() {
     <div className="app">
       <div className="log">
         <div className="logo"></div>
-        <h2>FACE OF NSBS SOUTHEAST</h2>
+        <h2>FACE OF NSBS MOUAU</h2>
       </div>
       <Router>
         <Routes>
