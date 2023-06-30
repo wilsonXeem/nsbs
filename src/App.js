@@ -12,7 +12,7 @@ function App() {
     <div className="app">
       <div className="log">
         <div className="logo"></div>
-        <h2 style={{textAlign:"center"}}>FACE OF NSBS MOUAU <br />by Comr. Malaky Arinze NSBS</h2>
+        <h2>FACE OF NSBS MOUAU</h2>
       </div>
       <Router>
         <Routes>
