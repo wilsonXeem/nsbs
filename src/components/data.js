@@ -8,6 +8,7 @@ import success from "../images/success.jpeg";
 import thelma from "../images/thelma.jpeg";
 import ofoegbu from "../images/ofoegbu.jpeg";
 import amarachi from "../images/amarachi.jpeg";
+import cinderella from "../images/cinderella.jpeg"
 
 const data = [
   {
@@ -59,6 +60,11 @@ const data = [
     fullname: "Onyeubi Nmesoma Thelma",
     nickname: "Pookie",
     image: thelma,
+  },
+  {
+    fullname: "Okeoma Tochi Grace",
+    nickname: "Cinderella",
+    image: cinderella,
   },
 ];
 

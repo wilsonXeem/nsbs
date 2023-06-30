@@ -1,6 +1,7 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Contestants from "./Contestants";
+import queen from "../images/queen.jpeg";
 
 function Homepage() {
   const navigate = useNavigate();
@@ -11,12 +12,15 @@ function Homepage() {
         Face of NSBS MOUAU Chapter brought to you by Comr. Malaky Arinze NSBS
         D.O.S.
       </h1>
+      <div className="queen">
+        <h2>FACE OF NSBS MOUAU</h2>
+        <img src={queen} alt="" />
+        <h1>Jennifer</h1>
+      </div>
+      <hr />
       <p>
-        Click{" "}
-        <button>
-          <Link to="/login">HERE</Link>
-        </button>{" "}
-        to log in
+        Click <button onClick={() => navigate("/login")}>HERE</button> to log in
+        and vote
       </p>
       <Contestants />
     </div>
