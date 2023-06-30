@@ -9,13 +9,13 @@ function Homepage() {
     <div className="homepage">
       <h1>Nigerian Society of Biochemistry Students, NSBS</h1>
       <h1>
-        Face of NSBS MOUAU Chapter brought to you by Comr. Malaky Arinze NSBS
-        D.O.S.
+        Quest for the crown of Mr/Miss face of NSBS 2022/2023 <br /> brought to you by
+        Comr. Malaky Arinze NSBS D.O.S.
       </h1>
       <div className="queen">
-        <h2>FACE OF NSBS MOUAU</h2>
         <img src={queen} alt="" />
-        <h1>Jennifer</h1>
+        <h1>Miss Jenifer</h1>
+        <h3>Miss Face of NSBS 2021/2022</h3>
       </div>
       <hr />
       <p>
