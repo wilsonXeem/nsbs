@@ -11,6 +11,7 @@ import amarachi from "../images/amarachi.jpeg";
 import cinderella from "../images/cinderella.jpeg"
 import veezinny from "../images/veezinny.jpeg"
 import clara from "../images/clara.jpeg"
+import ada from "../images/Ada billions.jpeg"
 
 const data = [
   {
@@ -77,6 +78,11 @@ const data = [
     fullname: "Clara Emeka",
     nickname: "Clara",
     image: clara,
+  },
+  {
+    fullname: "Chinyere Adaku Mary",
+    nickname: " Ada Billions",
+    image: ada,
   },
 ];
 
