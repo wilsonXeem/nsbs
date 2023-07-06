@@ -9,7 +9,6 @@ import thelma from "../images/thelma.jpeg";
 import ofoegbu from "../images/ofoegbu.jpeg";
 import amarachi from "../images/amarachi.jpeg";
 import cinderella from "../images/cinderella.jpeg"
-import veezinny from "../images/veezinny.jpeg"
 import clara from "../images/clara.jpeg"
 import ada from "../images/Ada billions.jpeg"
 
@@ -68,11 +67,6 @@ const data = [
     fullname: "Okeoma Tochi Grace",
     nickname: "Cinderella",
     image: cinderella,
-  },
-  {
-    fullname: "Omekara Victoria Ezinne",
-    nickname: "Veezinny",
-    image: veezinny,
   },
   {
     fullname: "Clara Emeka",
