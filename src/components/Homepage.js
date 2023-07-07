@@ -13,7 +13,7 @@ function Homepage() {
       </h1>
       <div className="queen">
         <img src={queen} alt="" />
-        <h1>Miss Jenifer</h1>
+        <h1>Miss Jennifer</h1>
         <h3>Face of NSBS 2021/2022</h3>
       </div>
       <hr />
