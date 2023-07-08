@@ -23,7 +23,7 @@ function Contestants() {
             <h3>{datas.fullname}</h3>
             <p>{datas.nickname}</p>
             <h1>
-              {contestants.length !== 0 ? contestants[i].votes : ""} votes
+              {datas.votes} %
             </h1>
           </div>
         );
