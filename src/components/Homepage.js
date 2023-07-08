@@ -17,10 +17,10 @@ function Homepage() {
         <h3>Face of NSBS 2021/2022</h3>
       </div>
       <hr />
-      <p>
+      {/* <p>
         Click <button onClick={() => navigate("/login")}>HERE</button> to log in
         and vote
-      </p>
+      </p> */}
       <Contestants />
     </div>
   );
