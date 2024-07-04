@@ -15,14 +15,14 @@ function Vote() {
   };
 
   const handleSubmit = () => {
-    const nickname = data[id].nickname;
+    const fullname = data[id].fullname;
 
-    fetch("https://southern-fragrant-maize.glitch.me/vote/voting", {
+    fetch("https://nsbs-server.vercel.app//vote/voting", {
       method: "POST",
       body: JSON.stringify({
         code: code,
         value: voteValue,
-        nickname: nickname,
+        fullname,
       }),
       headers: {
         "Content-type": "application/json",

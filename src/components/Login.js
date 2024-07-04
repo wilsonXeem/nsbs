@@ -8,7 +8,7 @@ function Login() {
   const navigate = useNavigate();
   const [code, setCode] = useState("");
   const handleSubmit = () => {
-    fetch("https://southern-fragrant-maize.glitch.me/vote/login", {
+    fetch("https://nsbs-server.vercel.app//vote/login", {
       method: "POST",
       body: JSON.stringify({
         code: code,

@@ -1,95 +1,118 @@
-import ebere from "../images/ebere.jpeg";
-import love from "../images/love.jpeg";
-import chinwe from "../images/chinwe.jpeg";
-import excellent from "../images/excellent.jpeg";
-import gift from "../images/gift.jpeg";
-import harry from "../images/harry.jpeg";
-import success from "../images/success.jpeg";
-import thelma from "../images/thelma.jpeg";
-import ofoegbu from "../images/ofoegbu.jpeg";
-import amarachi from "../images/amarachi.jpeg";
-import cinderella from "../images/cinderella.jpeg"
-import clara from "../images/clara.jpeg"
-import ada from "../images/Ada billions.jpeg"
+import con1 from "../images/1.jpeg";
+import con2 from "../images/2.jpeg";
+import con3 from "../images/3.jpeg";
+import con4 from "../images/4.jpeg";
+import con5 from "../images/5.jpeg";
+import con6 from "../images/6.jpeg";
+import con7 from "../images/7.jpeg";
+import con8 from "../images/8.jpeg";
+import con9 from "../images/9.jpeg";
+import con10 from "../images/10.jpeg";
+import con11 from "../images/11.jpeg";
+import con12 from "../images/12.jpeg";
+import con13 from "../images/13.jpeg";
+import con14 from "../images/14.jpeg";
+import con15 from "../images/15.jpeg";
+import con16 from "../images/16.jpeg";
+import con17 from "../images/17.jpeg";
+import con18 from "../images/18.jpeg";
+import con19 from "../images/19.jpeg";
 
 const data = [
   {
-    fullname: "Ebere Victory Chimuanya",
-    nickname: "Ujunwa",
-    image: ebere,
-    votes: 3.1,
+    fullname: "nwoko favour uchechi",
+    nickname: "God-shine",
+    image: con1,
   },
   {
-    fullname: "Charisma Mmasichukwu Chinwe",
-    nickname: "Addies Empire",
-    image: chinwe,
-    votes: 3.1,
+    fullname: "hart mercy chinecherem",
+    nickname: "mercy",
+    image: con2,
   },
   {
-    fullname: "Ofoegbu Divinefavour ",
-    nickname: "Anderson",
-    image: ofoegbu,
-    votes: 8.2,
+    fullname: "azubuike adakaibeya chinenye",
+    nickname: "queen diamond",
+    image: con3,
   },
   {
-    fullname: "Nwokoma Success Chiagoziwom",
-    nickname: "Everest",
-    image: success,
-    votes: 11.1,
+    fullname: "chiamaka favour chibuzor",
+    nickname: "favour",
+    image: con4,
   },
   {
-    fullname: "Chiemela Chiamaka Gift",
-    nickname: "Gîfty",
-    image: gift,
-    votes: 3.8,
+    fullname: "oguayo chiamaka blessing",
+    nickname: "betta",
+    image: con5,
   },
   {
-    fullname: "Onuzuruike Excellent",
-    nickname: "Excellent",
-    image: excellent,
-    votes: 12.8,
+    fullname: "james miracle nmesoma",
+    nickname: "miracle",
+    image: con6,
   },
   {
-    fullname: "Balogun Love Oluwatoyin",
-    nickname: "Love",
-    image: love,
-    votes: 13.5,
+    fullname: "epiphanus favour",
+    nickname: "favour",
+    image: con7,
   },
   {
-    fullname: "Harry God'sent U.",
-    nickname: "Mollycoddle",
-    image: harry,
-    votes: 1.8,
+    fullname: "odoh chioma annaesthesia",
+    nickname: "annabella",
+    image: con8,
   },
   {
-    fullname: "Ekeoma Favour Amarachi",
-    nickname: "Sparkles",
-    image: amarachi,
-    votes: 0.3,
+    fullname: "okoro emmanuel chidiebere",
+    nickname: "noble",
+    image: con9,
   },
   {
-    fullname: "Onyeubi Nmesoma Thelma",
-    nickname: "Pookie",
-    image: thelma,
-    votes: 0.4,
+    fullname: "coco",
+    nickname: "coco",
+    image: con10,
   },
   {
-    fullname: "Okeoma Tochi Grace",
-    nickname: "Cinderella",
-    image: cinderella,
-    votes: 0.4,
+    fullname: "bukan",
+    nickname: "bukan",
+    image: con11,
   },
   {
-    fullname: "Clara Emeka",
-    nickname: "Clara",
-    image: clara,
-    votes: 15.4,
+    fullname: "malvick",
+    nickname: "malvick",
+    image: con12,
   },
   {
-    fullname: "Chinyere Adaku Mary",
-    nickname: " Ada Billions",
-    image: ada,
-    votes: 26.0,
+    fullname: "nzenwa sopuruchi",
+    nickname: "sopuruchi",
+    image: con13,
+  },
+  {
+    fullname: "okechukwu destiny adaugo",
+    nickname: "young zara",
+    image: con14,
+  },
+  {
+    fullname: "princess chibueze enyinnaya",
+    nickname: " princess",
+    image: con15,
+  },
+  {
+    fullname: "chukwuemeka emmanuel",
+    nickname: "silver",
+    image: con16,
+  },
+  {
+    fullname: "obinna stephanie chinyere",
+    nickname: "Stephnora",
+    image: con17,
+  },
+  {
+    fullname: "ochogu ntella nene",
+    nickname: " nene",
+    image: con18,
+  },
+  {
+    fullname: "onyemauche chinenye perpetua",
+    nickname: "perpetua",
+    image: con19,
   },
 ];
 
