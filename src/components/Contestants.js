@@ -10,8 +10,6 @@ function Contestants() {
   const [contestants, setContestants] = useState([]);
   const [show, setShow] = useState(false);
 
-  console.log(contestants);
-
   socket.on("me", (data) => {
     setContestants(data);
   });
