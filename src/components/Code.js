@@ -4,7 +4,7 @@ function Code() {
   const [votes, setvotes] = useState("");
   const [code, setcode] = useState("");
   const handleSubmit = () => {
-    fetch("https://nsbs-server.vercel.app//vote/register", {
+    fetch("https://nsbs-server.vercel.app/vote/register", {
       method: "POST",
       body: JSON.stringify({
         value: votes,
