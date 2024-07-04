@@ -15,7 +15,7 @@ function Contestants() {
   });
 
   useEffect(() => {
-    fetch("https://nsbs-server.vercel.app//contestants")
+    fetch("https://nsbs-server.vercel.app/contestants")
       .then((res) => res.json())
       .then((json) => json);
   }, []);
