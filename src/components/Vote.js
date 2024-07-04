@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import data from "./data";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 import { ValueContext } from "../Context";
 
@@ -8,6 +8,7 @@ function Vote() {
   const { voteValue } = useContext(ValueContext);
   const { code } = useParams();
   const [id, setid] = useState(0);
+  const navigate = useNavigate()
 
   const handleCheck = (e) => {
     const _id = e.target.id;
@@ -17,7 +18,7 @@ function Vote() {
   const handleSubmit = () => {
     const fullname = data[id].fullname;
 
-    fetch("https://nsbs-server.vercel.app//vote/voting", {
+    fetch("https://nsbs-server.vercel.app/vote/voting", {
       method: "POST",
       body: JSON.stringify({
         code: code,
@@ -30,7 +31,7 @@ function Vote() {
     })
       .then((response) => response.json())
       .then((json) => {
-        window.location.replace("https://nsbsmouau.vercel.app/");
+        navigate("/")
       })
       .catch((error) => console.log(error));
   };
