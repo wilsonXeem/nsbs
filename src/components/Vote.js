@@ -8,7 +8,7 @@ function Vote() {
   const { voteValue } = useContext(ValueContext);
   const { code } = useParams();
   const [id, setid] = useState(0);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleCheck = (e) => {
     const _id = e.target.id;
@@ -18,7 +18,7 @@ function Vote() {
   const handleSubmit = () => {
     const fullname = data[id].fullname;
 
-    fetch("https://nsbs-server.vercel.app/vote/voting", {
+    fetch("https://southern-fragrant-maize.glitch.me/vote/voting", {
       method: "POST",
       body: JSON.stringify({
         code: code,
@@ -31,7 +31,7 @@ function Vote() {
     })
       .then((response) => response.json())
       .then((json) => {
-        navigate("/")
+        navigate("/");
       })
       .catch((error) => console.log(error));
   };
