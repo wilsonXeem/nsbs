@@ -23,96 +23,115 @@ const data = [
     fullname: "nwoko favour uchechi",
     nickname: "God-shine",
     image: con1,
+    vote: "28"
   },
   {
     fullname: "hart mercy chinecherem",
     nickname: "mercy",
     image: con2,
+    vote: "1"
   },
   {
     fullname: "azubuike adakaibeya chinenye",
     nickname: "queen diamond",
     image: con3,
+    vote: "1"
   },
   {
     fullname: "chiamaka favour chibuzor",
     nickname: "favour",
     image: con4,
+    vote: "39"
   },
   {
     fullname: "oguayo chiamaka blessing",
     nickname: "betta",
     image: con5,
+    vote: "35"
   },
   {
     fullname: "james miracle nmesoma",
     nickname: "miracle",
     image: con6,
+    vote: "0"
   },
   {
     fullname: "epiphanus favour",
     nickname: "favour",
     image: con7,
+    vote: "0"
   },
   {
     fullname: "odoh chioma annaesthesia",
     nickname: "annabella",
     image: con8,
+     vote: "3"
   },
   {
     fullname: "okoro emmanuel chidiebere",
     nickname: "noble",
     image: con9,
+     vote: "0"
   },
   {
     fullname: "coco",
     nickname: "coco",
     image: con10,
+     vote: "7"
   },
   {
     fullname: "bukan",
     nickname: "bukan",
     image: con11,
+     vote: "0"
   },
   {
     fullname: "malvick",
     nickname: "malvick",
     image: con12,
+     vote: "0"
   },
   {
     fullname: "nzenwa sopuruchi",
     nickname: "sopuruchi",
     image: con13,
+     vote: "0"
   },
   {
     fullname: "okechukwu destiny adaugo",
     nickname: "young zara",
     image: con14,
+     vote: "0"
   },
   {
     fullname: "princess chibueze enyinnaya",
     nickname: " princess",
     image: con15,
+     vote: "0"
   },
   {
     fullname: "chukwuemeka emmanuel",
     nickname: "silver",
     image: con16,
+     vote: "14"
   },
   {
     fullname: "obinna stephanie chinyere",
     nickname: "Stephnora",
     image: con17,
+     vote: "0"
   },
   {
     fullname: "ochogu ntella nene",
     nickname: " nene",
     image: con18,
+     vote: "0"
   },
   {
     fullname: "onyemauche chinenye perpetua",
     nickname: "perpetua",
     image: con19,
+     vote: "0"
   },
 ];
 
