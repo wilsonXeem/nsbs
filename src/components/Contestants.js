@@ -31,7 +31,7 @@ function Contestants() {
             <h3>{datas.fullname}</h3>
             <p>{datas.nickname}</p>
             <h1>
-              {data.votes} %
+              {data.vote} %
             </h1>
           </div>
         );
