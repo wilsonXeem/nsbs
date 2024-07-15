@@ -15,10 +15,10 @@ function Homepage() {
         <img src={banner} alt="" />
       </div>
       <hr />
-      <p>
-        Click <button onClick={() => navigate("/login")}>HERE</button> to log in
-        and vote
-      </p>
+      // <p>
+      //   Click <button onClick={() => navigate("/login")}>HERE</button> to log in
+      //   and vote
+      // </p>
       <Contestants />
     </div>
   );
